@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>3312 Final Project</title>
+
+<!--
+CS 3312, spring 2018
+Studio 9
+DON'T CHANGE THIS FILE
+-->
+
+<!-- Import a CSS stylesheet to style the page. -->
+<link href="style.css" rel="stylesheet" />
+
+</head><body>
+
+<h1>Snake!</h1>
+
+<div id="score"></div>
+
+<div>
+   <div class="left">
+      <fieldset>
+         <legend> Difficulty</legend>
+         <ul>
+            <li>
+               <!--Roosevelt selected by default -->
+               <label><input id="easy-difficulty" name="difficulty-select" type="radio" />&nbsp;Easy</label></li>
+            <li>
+               <label><input checked="checked" id="regular-difficulty" name="difficulty-select" type="radio" />&nbsp;Regular</label></li>
+            <li>
+               <label><input id="hard-difficulty" name="difficulty-select" type="radio" />&nbsp;Hard</label></li>
+         </ul>
+      </fieldset>
+      <fieldset class="left">
+         <legend>High Score</legend>
+         <p id="high-score" class="number-output">0</p>
+      </fieldset>
+   </div>
+   
+   <canvas id="game-board"></canvas>
+   <p id ="game-warning"></p>
+   
+</div>
+
+<div>
+   <button id="start-button">Start!</button>
+</div>
+<!-- Import a JavaScript script to add interactivity to the page. -->
+<script src="snake.js"></script>
+
+</body></html>
