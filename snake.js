@@ -1,8 +1,8 @@
 /*jslint browser: true, indent: 3 */
 
-// CS 3312, spring 2018
 // Snake Final Project
-// YOUR NAMES: Reese Montgomery, Harrison Chodacki
+// Reese Montgomery
+// montgomery.reese97@gmail.com
 
 // All the code below will be run once the page content finishes loading.
 document.addEventListener('DOMContentLoaded', function () {
